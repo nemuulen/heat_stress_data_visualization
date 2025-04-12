@@ -6,7 +6,8 @@
 
 - **Instructor**: Professor Luyao Zhang, Duke Kunshan University
 
-- **Disclaimer**: Submissions to the INFOVIS ReDesign Project for INFOSCI 301: Data Visualization and Information Aesthetics at Duke Kunshan University instructed by Prof. Luyao Zhang at Duke Kunshan University in Spring 2025.
+- **Disclaimer**: Course project for INFOSCI 301 – Data Visualization and Information Aesthetics,
+instructed by Prof. Luyao Zhang at Duke Kunshan University, Spring 2025.
 
 - **Acknowledgments**: 
 
@@ -14,22 +15,25 @@ This project represents the culmination of collaborative effort, thoughtful guid
    - **Professor and Course Support**
       - **Professor Luyao (Sunshine) Zhang**: Your insightful guidance, engaging lectures, and unwavering support throughout the INFOSCI 301: Data Visualization and Information Aesthetics course were instrumental in shaping this project. Your encouragement to push the boundaries of our learning was deeply inspiring.
       - **Classmates**: A special thanks to our peers in INFOSCI 301 for fostering a collaborative and supportive learning environment. Your feedback, discussions, and shared enthusiasm greatly enriched the quality of our project.
-   - **Open-Source Tools and Libraries** This project heavily relied on the contributions of the open-source community. The following tools and frameworks were critical to our success:
+   - **Open-Source Tools and Libraries** This project heavily relied on the contributions of the open-source databases, python and java libraries. The following tools and frameworks were used in this project:
       - **Python Libraries**:
-         - `pandas` and `branca` for data manipulation and basic visualizations.
-         - `folium`  for enhanced plotting capabilities and interactive visuals.
-         - `networkx` and `dash` for creating network diagrams and web-based visualizations. ???
-      - **GitHub**: For version control, collaboration, and hosting the repository. 
-   - **Climate-FEVER Dataset**: ???
+         - `pandas` for data processing
+         - `folium`  for interactive mapping
+         - `branca` for custom HTML injection
+      - **JavaScript & HTML**:
+         - Dynamic sliders and DOM updates
+         - Interactive legend and control panel
+      - **GitHub**: For hosting the repository. 
+   - **National Centers for Environmental Information (NCEI)**: NCEI provides access to an extensive archive of environmental data through several platforms. Their open data and search system was essential to effective data collection and absraction. 
 
 - **Project Summary**:
 <p align="center">
   <kbd>
-    <img src="project_mindmap.jpg" alt="Flowchart1" width="600"/>
+    <img src="project_poster.jpg" alt="Flowchart1" width="600"/>
   </kbd>
 </p>
 
-*Figure 1: Map of the redesign process. Created on Miro*
+*Figure 1:Project poster. Created on Canva*
 
 ---
 
@@ -41,8 +45,6 @@ This project represents the culmination of collaborative effort, thoughtful guid
 * [Applications](./README.md#Applications)
 * [Getting Started](./README.md#Getting-Started)
 * [Final Poster](./README.md#Final-Poster)
-* [Demo Videos](./README.md#demo-video)
-* [Contributing](./README.md#Contributing)
 * [License](./README.md#License)
 * [References](./README.md#References)
 * [Statement of Intellectual and Professional Growth](./README.md#Statement-of-Intellectual-and-Professional-Growth)
@@ -52,67 +54,71 @@ This project represents the culmination of collaborative effort, thoughtful guid
 
 ## **Overview**
 
-This repository focuses on research aimed at visualizing user credibility and cultural influences in misinformation detection through social context. By leveraging advanced visualization techniques and integrating diverse datasets, this project provides actionable insights into the dynamics of misinformation spread, detection, and user behavior across cultural boundaries. The visual tools developed here address key societal challenges, empowering stakeholders across disciplines to combat the global issue of misinformation.
+This repository focuses on redesigning an existing spatial data into a dynamic and browser-based visualization using design principles. The redesigned map shows heat stress risks across the United States using temperature and humidity data. This interactive Folium-based map helps users explore heat index categories with real-time controls for marker appearance, category filtering, and more!
 
 ---
 
 ## **Repository Structure**
 
-- **[`Data/`](Data/README.md)**: Contains the datasets used in the project, including:
-  - All data were simulated by chatGPT from a reference picture. 
-- **[`Code/`](Code/README.md)**: Python scripts for data preprocessing, integration, and visualization.
-   - **`data_preprocessing.ipynb`**: Scripts for loading and aligning datasets.
+- **[`Data/`](Data/README.md)**: Contains the datasets used in the project with documentation.
+- **[`Code/`](Code/README.md)**: The Python, HTML, and Java codes used for visualization. 
+   - **`US_heat_stress_risk_data_visualization.ipynb`**: Scripts for loading and aligning datasets.
    - **`/map`**: HTML file for the geospatial map that one can download and run on a browser.
-- **[`Discussions/`](Discussions/README.md)**: Key insights, reflections, and future improvements based on project findings, the final poster, and peer evaluations.
+- **[`Discussions/`](Discussions/README.md)**: Notes, future improvements, and the project poster.
 - **[`Visualizations/`](Visualizations/README.md)**: Output visualizations and analysis results.
-- **[`Docs/`](Docs/README.md)**: Supplementary documentation, final report.
-
+- **[`Docs/`](Docs/README.md)**: Supplementary documentation, final academic report.
 ---
 
 ## **Key Features**
 
-- **Data Integration**:
-  - Combines multiple datasets to explore misinformation across regions, platforms, and cultural contexts.
-  - Aligns schemas for consistency and scalability in analysis.
-- **Interactive Visualizations**:
-  - Scatterplots for misinformation amplification patterns.
-  - Network diagrams for dissemination pathways.
-  - Choropleth maps for regional vulnerability analysis.
+- Heat Index Classification: Calculates the heat index based on max temperature and relative humidity and classifies according to https://www.weather.gov/ama/heatindex#:~:text=The%20heat%20index%2C%20also%20known,sweat%20to%20cool%20itself%20off.
+- Interactive Map: Built using Folium and rendered in the browser.
+  Custom Marker Shapes and Colors:
+  - Green Circle → Normal
+  - Yellow Rectangle → Caution
+  - Orange Rectangle → Extreme Caution
+  - Red Triangle → Danger
+  - Purple Triangle → Extreme Danger
+  
+- Filter by Category: Toggle visible categories using checkboxes.
+- Sliders: Adjust opacity, blur, and marker size interactively.
+- Popups with Context: Shows location name, heat index (°C), temperature (TMAX), and humidity (RHAV).
+- About toggle panel with info and instructions.
 
 ---
 
 ## **Datasets**
 
-### **???**
-- Focuses on climate-related misinformation with claim-evidence annotations categorized as SUPPORTS, REFUTES, or NOT_ENOUGH_INFO.
+### **National Centers for Environmental Information (NCEI)**
+: NCEI provides access to an extensive archive of environmental data through several platforms. The current data is from July, 2024 and extracted from The Global Summary Of The Month (GSOM) Data Files. It contains contain quality controlled monthly summaries of more than 50 elements (max temp, snow, etc.) computed from stations in the Global Historical Climatology Network (GHCN)-Daily dataset. 
+[https://www.ncei.noaa.gov/access/search/order-status ](https://www.ncei.noaa.gov/data/global-summary-of-the-month/)
+
+The documentation:
+PDF FILE!
 
 ---
 
 ## **Applications**
 
-1. **Policy Development**:
-   - Identify misinformation hotspots and track the effectiveness of interventions.
-   - Design culturally sensitive campaigns targeting misinformation-prone regions.
+**Corporate Risk Management**
+	•	Fortune 500 firms use this type of data to prioritize resilience-building efforts, both internally and with suppliers.
+	•	Helps identify vulnerable facilities that may require infrastructure upgrades or adaptive operational planning.
 
-2. **Media and Journalism**:
-   - Tailor fact-checking strategies based on audience demographics.
-   - Monitor and visualize the impact of fact-checking efforts.
+**Urban & Regional Planning**
+	•	Municipal governments can use this tool to pinpoint heat hotspots and guide urban cooling strategies, such as planting trees or changing building materials.
+	•	Helps prioritize emergency response planning in high-risk zones.
 
-3. **Academic Research**:
-   - Explore correlations between cultural factors and misinformation susceptibility.
-   - Analyze temporal trends and the role of social context in misinformation acceptance.
+**Real Estate Investment**
+	•	Real estate investors gain asset-level insights into climate risk, informing portfolio diversification and investment strategies.
+	•	Data-driven conversations with property managers and developers help in climate-proofing buildings and neighborhoods.
 
-4. **Social Media Platforms**:
-   - Enhance content moderation strategies using clustering and network analysis.
-   - Develop user-specific interventions to mitigate misinformation spread.
+**Financial & Bond Markets**
+	•	Municipal bond investors can evaluate the climate risk of issuers’ assets and encourage risk-reduction investments.
+	•	Facilitates more transparent climate disclosures and supports ESG (Environmental, Social, Governance) reporting.
 
-5. **Education and Media Literacy**:
-   - Create engaging, data-driven materials to teach critical thinking and media literacy.
-   - Design programs tailored to regional misinformation vulnerabilities.
-
-6. **NGO Advocacy**:
-   - Demonstrate the societal impact of misinformation to secure resources.
-   - Guide the development of cross-cultural programs improving information literacy.
+**Climate Resilience & Policy**
+	•	Empowers policy makers and sustainability leaders to design targeted adaptation measures.
+	•	Enables collaboration between businesses, governments, and communities to build climate resilience and reduce long-term losses.
 
 ---
 
@@ -122,30 +128,14 @@ This repository focuses on research aimed at visualizing user credibility and cu
 - Python 3.6 or higher
 - Required libraries:
   - `pandas`
-  - `numpy`
-  - `matplotlib`
-  - `networkx`
-  - `flask`
-  - `shap`
+  - `folium`
+  - `branca`
 
-### **Installation**
-Clone the repository and install dependencies:
-
-```bash
-git clone https://github.com/AidaCPL/INFOSCI301_Final_Project.git
-cd misinformation-visualization
-pip install -r requirements.txt
-```
-
-### **Usage**
-1. **Preprocess Data**:
-   ```bash
-   python scripts/data_preprocessing.ipynb
-   ```
-2. **Generate Visualizations**:
-   ```bash
-   python scripts/visualization_tools.py
-   ```
+### **How to run?**
+1. Use Google Colab or any equivalent environment and import the code.
+2. Import the dataset.
+3. Run the whole code.
+4. Open the saved HTML file in your browser.
 ---
 
 ## **Final Poster**
@@ -154,22 +144,6 @@ pip install -r requirements.txt
     <img src="Visualizations/INFOSCI301_Final_Poster.png" alt="Final Poster" width="600"/>
   </kbd>
 </p>
-
----
-
-## **Demo Video**
-The following video shows a demonstration of the 3 interactive visualizations.
-https://duke.box.com/s/jfbl3fo9qktoyiodwvlqmhp6uciqrwcl
-
-
----
-
-## **Statement of Intellectual and Professional Growth**
-
-This project has been a transformative experience in our academic and professional journey. Through the process of integrating diverse datasets and leveraging advanced visualization techniques, we have gained a deeper understanding of how to approach complex problems with interdisciplinary tools. The hands-on work with network analysis, interactive visualizations, and machine learning has sharpened our technical skills and enriched our ability to convey complex data narratives effectively. Collaborating with our peers on this project has also enhanced our teamwork and communication abilities, preparing us for future roles in data-driven research and policy-making.
-
-The exploration of misinformation dynamics has been particularly meaningful, as it connects computational methods with real-world social challenges. The skills and insights gained through this course will undoubtedly influence our approach to future academic and professional endeavors, fostering a commitment to innovation and ethical application of data science.
-
 ---
 
 ## **Navigation Instructions**
@@ -194,17 +168,31 @@ This repository is organized to facilitate ease of access to all components of t
 
 ---
 
-## **Contributing**
-We welcome contributions to enhance the repository. Please submit issues or pull requests to suggest improvements or report bugs.
-
----
-
 ## **License**
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. 
+
+Copyright (c) 2025 Nemuulen Togtbaatar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
 
 ## **References**
-This project builds upon datasets and methodologies outlined in:
-- Climate-FEVER: [Dataset Paper](https://arxiv.org/abs/2005.00857)
-- Global Misinformation Dataset: [Understanding and combatting misinformation across 16 countries on six continents](https://doi.org/10.1038/s41562-023-01641-6)
+This project builds upon datasets outlined in:
+- National Centers for Environmental Information (NCEI): [Dataset]([https://arxiv.org/abs/2005.00857](https://www.ncei.noaa.gov/))
