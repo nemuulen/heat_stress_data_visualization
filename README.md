@@ -13,9 +13,9 @@ instructed by Prof. Luyao Zhang at Duke Kunshan University, Spring 2025.
 
 This project represents the culmination of collaborative effort, thoughtful guidance, and the invaluable support of various individuals and resources. We wish to express our sincere gratitude to the following:
    - **Professor and Course Support**
-      - **Professor Luyao (Sunshine) Zhang**: Your insightful guidance, engaging lectures, and unwavering support throughout the INFOSCI 301: Data Visualization and Information Aesthetics course were instrumental in shaping this project. Your encouragement to push the boundaries of our learning was deeply inspiring.
-      - **Classmates**: A special thanks to our peers in INFOSCI 301 for fostering a collaborative and supportive learning environment. Your feedback, discussions, and shared enthusiasm greatly enriched the quality of our project.
-   - **Open-Source Tools and Libraries** This project heavily relied on the contributions of the open-source databases, python and java libraries. The following tools and frameworks were used in this project:
+      - **Professor Luyao (Sunshine) Zhang**: Your insightful guidance, engaging lectures, and unwavering support throughout the INFOSCI 301: Data Visualization and Information Aesthetics course were instrumental in shaping this project.
+      - **Classmates**: A special thanks to our peers in INFOSCI 301 for your insightful discussions and shared enthusiasm, which greatly enriched the quality of this project.
+   - **Open-Source Tools and Libraries** This project heavily relied on the contributions of open-source databases, python, and Java libraries. The following tools and frameworks were used in this project:
       - **Python Libraries**:
          - `pandas` for data processing
          - `folium`  for interactive mapping
@@ -24,7 +24,7 @@ This project represents the culmination of collaborative effort, thoughtful guid
          - Dynamic sliders and DOM updates
          - Interactive legend and control panel
       - **GitHub**: For hosting the repository. 
-   - **National Centers for Environmental Information (NCEI)**: NCEI provides access to an extensive archive of environmental data through several platforms. Their open data and search system was essential to effective data collection and absraction. 
+   - **National Centers for Environmental Information (NCEI)**: NCEI provides access to an extensive archive of environmental data through several platforms. Their open data and search system was essential to effective data collection and extraction. 
 
 - **Project Summary**:
 <p align="center">
@@ -54,7 +54,7 @@ This project represents the culmination of collaborative effort, thoughtful guid
 
 ## **Overview**
 
-This repository focuses on redesigning an existing spatial data into a dynamic and browser-based visualization using design principles. The redesigned map shows heat stress risks across the United States using temperature and humidity data. This interactive Folium-based map helps users explore heat index categories with real-time controls for marker appearance, category filtering, and more!
+This repository focuses on redesigning existing spatial data into a dynamic and browser-based visualization using design principles. The redesigned map shows heat stress risks across the United States using temperature and humidity data. This interactive Folium-based map helps users explore heat index categories with real-time controls for marker appearance, category filtering, and more!
 
 ---
 
@@ -72,25 +72,25 @@ This repository focuses on redesigning an existing spatial data into a dynamic a
 ## **Key Features**
 
 - Heat Index Classification: Calculates the heat index based on max temperature and relative humidity and classifies according to https://www.weather.gov/ama/heatindex#:~:text=The%20heat%20index%2C%20also%20known,sweat%20to%20cool%20itself%20off.
-- Interactive Map: Built using Folium and rendered in the browser.
-  Custom Marker Shapes and Colors:
+- **Interactive Map**: Built using Folium and rendered in the browser.
+  **Custom Marker Shapes and Colors**:
   - Green Circle → Normal
   - Yellow Rectangle → Caution
   - Orange Rectangle → Extreme Caution
   - Red Triangle → Danger
   - Purple Triangle → Extreme Danger
   
-- Filter by Category: Toggle visible categories using checkboxes.
-- Sliders: Adjust opacity, blur, and marker size interactively.
-- Popups with Context: Shows location name, heat index (°C), temperature (TMAX), and humidity (RHAV).
-- About toggle panel with info and instructions.
+- **Filter by Category**: Toggle visible categories using checkboxes.
+- **Sliders**: Adjust opacity, blur, and marker size interactively.
+- **Popups with Context**: Shows location name, heat index (°C), temperature (TMAX), and humidity (RHAV).
+- **About toggle panel** with info and instructions.
 
 ---
 
 ## **Datasets**
 
 ### **National Centers for Environmental Information (NCEI)**
-: NCEI provides access to an extensive archive of environmental data through several platforms. The current data is from July, 2024 and extracted from The Global Summary Of The Month (GSOM) Data Files. It contains contain quality controlled monthly summaries of more than 50 elements (max temp, snow, etc.) computed from stations in the Global Historical Climatology Network (GHCN)-Daily dataset. 
+NCEI provides access to an extensive archive of environmental data through several platforms. The current data is from July, 2024 and extracted from The Global Summary Of The Month (GSOM) Data Files. It contains contain quality controlled monthly summaries of more than 50 elements (max temp, snow, etc.) computed from stations in the Global Historical Climatology Network (GHCN)-Daily dataset. 
 [https://www.ncei.noaa.gov/access/search/order-status ](https://www.ncei.noaa.gov/data/global-summary-of-the-month/)
 
 The documentation:
@@ -100,25 +100,25 @@ PDF FILE!
 
 ## **Applications**
 
-**Corporate Risk Management**
-	•	Fortune 500 firms use this type of data to prioritize resilience-building efforts, both internally and with suppliers.
-	•	Helps identify vulnerable facilities that may require infrastructure upgrades or adaptive operational planning.
+* **Corporate Risk Management**
+	- Fortune 500 firms use this type of data to prioritize resilience-building efforts, both internally and with suppliers.
+	- Helps identify vulnerable facilities that may require infrastructure upgrades or adaptive operational planning.
 
-**Urban & Regional Planning**
-	•	Municipal governments can use this tool to pinpoint heat hotspots and guide urban cooling strategies, such as planting trees or changing building materials.
-	•	Helps prioritize emergency response planning in high-risk zones.
+* **Urban & Regional Planning**
+  	- Municipal governments can use this tool to pinpoint heat hotspots and guide urban cooling strategies, such as planting trees or changing building materials.
+	- Helps prioritize emergency response planning in high-risk zones.
 
-**Real Estate Investment**
-	•	Real estate investors gain asset-level insights into climate risk, informing portfolio diversification and investment strategies.
-	•	Data-driven conversations with property managers and developers help in climate-proofing buildings and neighborhoods.
+* **Real Estate Investment**
+  	- Real estate investors gain asset-level insights into climate risk, informing portfolio diversification and investment strategies.
+	- Data-driven conversations with property managers and developers help in climate-proofing buildings and neighborhoods.
 
-**Financial & Bond Markets**
-	•	Municipal bond investors can evaluate the climate risk of issuers’ assets and encourage risk-reduction investments.
-	•	Facilitates more transparent climate disclosures and supports ESG (Environmental, Social, Governance) reporting.
+* **Financial & Bond Markets**
+  	- Municipal bond investors can evaluate the climate risk of issuers’ assets and encourage risk-reduction investments.
+	- Facilitates more transparent climate disclosures and supports ESG (Environmental, Social, Governance) reporting.
 
-**Climate Resilience & Policy**
-	•	Empowers policy makers and sustainability leaders to design targeted adaptation measures.
-	•	Enables collaboration between businesses, governments, and communities to build climate resilience and reduce long-term losses.
+* **Climate Resilience & Policy**
+  	- Empowers policymakers and sustainability leaders to design targeted adaptation measures.
+	- Enables collaboration between businesses, governments, and communities to build climate resilience and reduce long-term losses.
 
 ---
 
@@ -194,5 +194,5 @@ SOFTWARE.
 ---
 
 ## **References**
-This project builds upon datasets outlined in:
+This project builds upon dataset(s) in:
 - National Centers for Environmental Information (NCEI): [Dataset]([https://arxiv.org/abs/2005.00857](https://www.ncei.noaa.gov/))
