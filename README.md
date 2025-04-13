@@ -54,14 +54,12 @@ This project represents the culmination of collaborative effort, thoughtful guid
 
 ## **Table of Contents**
 * [Overview](./README.md#Overview)
-* [Repository Structure](./README.md#Repository-Structure)
 * [Key Features](./README.md#Key-Features)
 * [Datasets](./README.md#Datasets)
 * [Applications](./README.md#Applications)
 * [Getting Started](./README.md#Getting-Started)
 * [License](./README.md#License)
 * [References](./README.md#References)
-* [Navigation Instructions](./README.md#Navigation-Instructions)
 
 ---
 
@@ -145,10 +143,10 @@ The documentation:
 This repository is organized to facilitate ease of access to all components of the project. Below is an overview of where to find key resources:
 
 - **Code for Simulations, Data Processing, and Visualizations**:
-  - Located in the [Code.ipynb](https://github.com/nemuulen/heat_stress_data_visualization/blob/main/US_heat_stress_risk_data_visualization.ipynb).
+  - Located in the ['US_heat_stress_risk_data_visualization.ipynb' (https://github.com/nemuulen/heat_stress_data_visualization/blob/main/US_heat_stress_risk_data_visualization.ipynb).
 
 - **Sample Datasets or Processed Data**:
-  - Found in the [Data](https://github.com/nemuulen/heat_stress_data_visualization/blob/main/US_temp_rh_data.csv).
+  - Found in the ['Data'](https://github.com/nemuulen/heat_stress_data_visualization/blob/main/US_temp_rh_data.csv).
   - Contains raw and processed datasets.
 
 - **Pilot Visualizations or Figures**:
