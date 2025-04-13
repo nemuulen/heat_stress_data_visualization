@@ -29,11 +29,26 @@ This project represents the culmination of collaborative effort, thoughtful guid
 - **Project Summary**:
 <p align="center">
   <kbd>
-    <img src="Project_Poster.png" alt="Project Poster.png" width="600"/>
+    <img src="Project_Poster.png" alt="Project Poster" width="600"/>
   </kbd>
 </p>
 
-*Figure 1:Project poster. Created on Canva*
+*Figure 1: Project poster. Created on Canva*
+
+<p align="center">
+  <kbd>
+    <img src="Project_workflow" alt="Project workflow" width="600"/>
+  </kbd>
+</p>
+
+*Figure 2: Project workflow. Created on Canva*
+<p align="center">
+  <kbd>
+    <img src="Revisualization_workflow.png" alt="Revisualization_workflow" width="600"/>
+  </kbd>
+</p>
+
+*Figure 3: Redesign  workflow. Created on Canva*
 
 ---
 
@@ -44,10 +59,8 @@ This project represents the culmination of collaborative effort, thoughtful guid
 * [Datasets](./README.md#Datasets)
 * [Applications](./README.md#Applications)
 * [Getting Started](./README.md#Getting-Started)
-* [Final Poster](./README.md#Final-Poster)
 * [License](./README.md#License)
 * [References](./README.md#References)
-* [Statement of Intellectual and Professional Growth](./README.md#Statement-of-Intellectual-and-Professional-Growth)
 * [Navigation Instructions](./README.md#Navigation-Instructions)
 
 ---
@@ -56,17 +69,6 @@ This project represents the culmination of collaborative effort, thoughtful guid
 
 This repository focuses on redesigning existing spatial data into a dynamic and browser-based visualization using design principles. The redesigned map shows heat stress risks across the United States using temperature and humidity data. This interactive Folium-based map helps users explore heat index categories with real-time controls for marker appearance, category filtering, and more!
 
----
-
-## **Repository Structure**
-
-- **[`Data/`](Data/README.md)**: Contains the datasets used in the project with documentation.
-- **[`Code/`](Code/README.md)**: The Python, HTML, and Java codes used for visualization. 
-   - **`US_heat_stress_risk_data_visualization.ipynb`**: Scripts for loading and aligning datasets.
-   - **`/map`**: HTML file for the geospatial map that one can download and run on a browser.
-- **[`Discussions/`](Discussions/README.md)**: Notes, future improvements, and the project poster.
-- **[`Visualizations/`](Visualizations/README.md)**: Output visualizations and analysis results.
-- **[`Docs/`](Docs/README.md)**: Supplementary documentation, final academic report.
 ---
 
 ## **Key Features**
@@ -90,11 +92,11 @@ This repository focuses on redesigning existing spatial data into a dynamic and 
 ## **Datasets**
 
 ### **National Centers for Environmental Information (NCEI)**
-NCEI provides access to an extensive archive of environmental data through several platforms. The current data is from July, 2024 and extracted from The Global Summary Of The Month (GSOM) Data Files. It contains contain quality controlled monthly summaries of more than 50 elements (max temp, snow, etc.) computed from stations in the Global Historical Climatology Network (GHCN)-Daily dataset. 
+NCEI provides access to an extensive archive of environmental data through several platforms. The current data is from July, 2024 and extracted from The Global Summary Of The Month (GSOM) Data Files. It contains quality-controlled monthly summaries of more than 50 elements (max temp, snow, etc.) computed from stations in the Global Historical Climatology Network (GHCN)-Daily dataset. 
 [https://www.ncei.noaa.gov/access/search/order-status ](https://www.ncei.noaa.gov/data/global-summary-of-the-month/)
 
 The documentation:
-PDF FILE!
+[View the documentation (PDF)](https://github.com/nemuulen/heat_stress_data_visualization/blob/main/GSOM_documentation.pdf)
 
 ---
 
@@ -138,32 +140,19 @@ PDF FILE!
 4. Open the saved HTML file in your browser.
 ---
 
-## **Final Poster**
-<p align="center">
-  <kbd>
-    <img src="Visualizations/INFOSCI301_Final_Poster.png" alt="Final Poster" width="600"/>
-  </kbd>
-</p>
----
-
 ## **Navigation Instructions**
 
 This repository is organized to facilitate ease of access to all components of the project. Below is an overview of where to find key resources:
 
 - **Code for Simulations, Data Processing, and Visualizations**:
-  - Located in the [`Code/`](Code/README.md) directory.
-  - Includes a Python file for visualizing the dataset.
+  - Located in the [Code.ipynb](https://github.com/nemuulen/heat_stress_data_visualization/blob/main/US_heat_stress_risk_data_visualization.ipynb).
 
 - **Sample Datasets or Processed Data**:
-  - Found in the [`Data/`](Data/README.md) folder.
+  - Found in the [Data](https://github.com/nemuulen/heat_stress_data_visualization/blob/main/US_temp_rh_data.csv).
   - Contains raw and processed datasets.
 
-- **Documentation for Dependencies and Environment Setup**:
-  - Detailed in the [`Docs/`](Docs/README.md) directory.
-
 - **Pilot Visualizations or Figures**:
-  - Stored in the [`Visualizations/`](Visualizations/README.md) folder.
-  - Features static and interactive outputs of the project’s key visualizations, including geospatial maps, network diagrams, and machine learning plots.
+  - Stored in the [`Visualization`](https://github.com/nemuulen/heat_stress_data_visualization/blob/main/interactive_heat_index_map-15.html).
 
 ---
 
