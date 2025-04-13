@@ -29,7 +29,7 @@ This project represents the culmination of collaborative effort, thoughtful guid
 - **Project Summary**:
 <p align="center">
   <kbd>
-    <img src="project_poster.jpg" alt="Flowchart1" width="600"/>
+    <img src="Project_Poster.png" alt="Project Poster.png" width="600"/>
   </kbd>
 </p>
 
