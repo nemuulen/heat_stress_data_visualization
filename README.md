@@ -152,15 +152,14 @@ This repository is organized to facilitate ease of access to all components of t
 
 - **Code for Simulations, Data Processing, and Visualizations**:
   - Located in the [`Code/`](Code/README.md) directory.
-  - Includes `data_preprocessing.ipynb` for cleaning and integrating datasets, and `visualization_tools.py` for generating the project’s visualizations.
+  - Includes a Python file for visualizing the dataset.
 
 - **Sample Datasets or Processed Data**:
   - Found in the [`Data/`](Data/README.md) folder.
-  - Contains raw and processed datasets, including Climate-FEVER and the Global Misinformation Dataset.
+  - Contains raw and processed datasets.
 
 - **Documentation for Dependencies and Environment Setup**:
   - Detailed in the [`Docs/`](Docs/README.md) directory.
-  - Includes `requirements.txt` for library installation and a setup guide for running the visualizations.
 
 - **Pilot Visualizations or Figures**:
   - Stored in the [`Visualizations/`](Visualizations/README.md) folder.
