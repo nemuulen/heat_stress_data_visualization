@@ -37,7 +37,7 @@ This project represents the culmination of collaborative effort, thoughtful guid
 
 <p align="center">
   <kbd>
-    <img src="Project_workflow" alt="Project workflow" width="600"/>
+    <img src="Project_workflow.png" alt="Project workflow" width="600"/>
   </kbd>
 </p>
 
