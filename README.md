@@ -159,6 +159,7 @@ This repository is organized to facilitate ease of access to all components of t
 </p>
 
 *Figure 4: Redesigned map.*
+
 ---
 
 ## **License**
