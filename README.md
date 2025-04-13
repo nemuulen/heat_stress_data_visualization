@@ -154,7 +154,7 @@ This repository is organized to facilitate ease of access to all components of t
     
 <p align="center">
   <kbd>
-    <img src="Redesigned_map.png" alt="Redesigned map" width="600"/>
+    <img src="Redesigned_map_example.png" alt="Redesigned map" width="600"/>
   </kbd>
 </p>
 
