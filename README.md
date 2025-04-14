@@ -1,6 +1,6 @@
-# **Heat Stress Data Visualization**
+# **Heat Stress Data Visualization** 🌎
 
-## Project Information
+## ℹ️ Project Information
 
 - **Authors**: Nemuulen Togtbaatar
 
@@ -52,7 +52,7 @@ This project represents the culmination of collaborative effort, thoughtful guid
 
 ---
 
-## **Table of Contents**
+## **Table of Contents** 
 * [Overview](./README.md#Overview)
 * [Key Features](./README.md#Key-Features)
 * [Datasets](./README.md#Datasets)
@@ -69,7 +69,7 @@ This repository focuses on redesigning existing spatial data into a dynamic and 
 
 ---
 
-## **Key Features**
+## ** 🔑 Key Features**
 
 - Heat Index Classification: Calculates the heat index based on max temperature and relative humidity and classifies according to https://www.weather.gov/ama/heatindex#:~:text=The%20heat%20index%2C%20also%20known,sweat%20to%20cool%20itself%20off.
 - **Interactive Map**: Built using Folium and rendered in the browser.
