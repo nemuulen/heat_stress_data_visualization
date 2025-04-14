@@ -1,4 +1,4 @@
-# **Heat Stress Data Visualization** 🌎
+# **Mapping the Heat: An Interactive Redesign of Heat Stress Risk Visualization** 🌎
 
 ## ℹ️ Project Information
 
