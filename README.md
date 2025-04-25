@@ -151,11 +151,11 @@ This repository is organized to facilitate ease of access to all components of t
   - Contains raw and processed datasets.
 
 - **Pilot Visualizations or Figures**:
-  - Stored in the [`Visualization`](https://github.com/nemuulen/heat_stress_data_visualization/blob/main/interactive_heat_index_map-15.html).
+  - Stored in the [`Visualization`](https://github.com/nemuulen/heat_stress_data_visualization/blob/main/interactive_heat_index_map-22.html).
     
 <p align="center">
   <kbd>
-    <img src="Redesigned_map_example.png" alt="Redesigned map" width="600"/>
+    <img src="VIS_example.png" alt="Redesigned map" width="600"/>
   </kbd>
 </p>
 
