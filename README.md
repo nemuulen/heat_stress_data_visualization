@@ -14,7 +14,7 @@ instructed by Prof. Luyao Zhang at Duke Kunshan University, Spring 2025.
 This project represents the culmination of collaborative effort, thoughtful guidance, and the invaluable support of various individuals and resources. We wish to express our sincere gratitude to the following:
    - **Professor and Course Support**
       - **Professor Luyao (Sunshine) Zhang**: Your insightful guidance, engaging lectures, and unwavering support throughout the INFOSCI 301: Data Visualization and Information Aesthetics course were instrumental in shaping this project.
-      - **Classmates**: A special thanks to our peers in INFOSCI 301, especially Yuqing Wang, for your insightful discussions and shared enthusiasm, which greatly enriched the quality of this project.
+      - **Classmates**: A special thanks to our peers in INFOSCI 301, especially Yiqing Wang, for your insightful discussions and shared enthusiasm, which greatly enriched the quality of this project.
       - **Industry experts and Professors**: Appreciation to Dongping Liu from Amazon and David Schaaf, the Deputy Head of Chemistry Education and Head of the NanoBioLab at Saarland University, for their great lectures introducing new visualization technologies.Great feedbacks and suggestions from Prof. Charles Chang also played important roles in improving this redesign project meaningful.
    - **Open-Source Tools and Libraries** This project heavily relied on the contributions of open-source databases, python, and Java libraries. The following tools and frameworks were used in this project:
       - **Python Libraries**:
