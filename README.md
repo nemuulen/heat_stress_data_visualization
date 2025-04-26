@@ -68,6 +68,17 @@ This project represents the culmination of collaborative effort, thoughtful guid
 
 This repository focuses on redesigning existing spatial data into a dynamic and browser-based visualization using design principles. The redesigned map shows heat stress risks across the United States using temperature and humidity data. This interactive Folium-based map helps users explore heat index categories with real-time controls for marker appearance, category filtering, and more!
 
+<p align="center">
+  <kbd>
+    <img src="SDG13.png" alt="SDG13.png" width="600"/>
+	<img src="SDG3.png" alt="SDG3.png" width="600"/>
+  </kbd>
+</p>
+
+*Figure 4: Contributed SDG goals*
+
+This project supports UN’s SDG goals 13 and 3, because the redesigned map informs climate change and could be used to prevent from extreme heat and heat stroke.
+
 ---
 
 ## ** 🔑 Key Features**
@@ -159,7 +170,7 @@ This repository is organized to facilitate ease of access to all components of t
   </kbd>
 </p>
 
-*Figure 4: Redesigned map.*
+*Figure 5: Redesigned map.*
 
 ---
 
