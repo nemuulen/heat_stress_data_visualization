@@ -176,7 +176,7 @@ This repository is organized to facilitate ease of access to all components of t
 ## **Future Directions**
 <p align="center">
   <kbd>
-    <img src="Penguin_pic.png" alt="Redesigned map" width="300"/>
+    <img src="Penguin_pic.HEIC" alt="Penguin_pic.HEIC" width="300"/>
   </kbd>
 </p>
 
