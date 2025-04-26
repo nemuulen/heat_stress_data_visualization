@@ -70,8 +70,8 @@ This repository focuses on redesigning existing spatial data into a dynamic and 
 
 <p align="center">
   <kbd>
-    <img src="SDG13.png" alt="SDG13.png" width="600"/>
-	<img src="SDG3.png" alt="SDG3.png" width="600"/>
+    <img src="SDG13.png" alt="SDG13.png" width="100"/>
+	<img src="SDG3.png" alt="SDG3.png" width="100"/>
   </kbd>
 </p>
 
