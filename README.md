@@ -59,6 +59,7 @@ This project represents the culmination of collaborative effort, thoughtful guid
 * [Datasets](./README.md#Datasets)
 * [Applications](./README.md#Applications)
 * [Getting Started](./README.md#Getting-Started)
+* [Future Directions](./README.md#Future-directions)
 * [License](./README.md#License)
 * [References](./README.md#References)
 
@@ -171,6 +172,17 @@ This repository is organized to facilitate ease of access to all components of t
 </p>
 
 *Figure 5: Redesigned map.*
+
+## **Future Directions**
+<p align="center">
+  <kbd>
+    <img src="Penguin_pic.png" alt="Redesigned map" width="300"/>
+  </kbd>
+</p>
+
+*Figure 6: Penguin body.*
+Future Research Direction on Digital Humanities:
+The penguin body picture (Fig.6) was taken at the Mystery of Life Museum, Zhouzhuang, China, during the course field trip on April 25th, 2025. This exhibition reminded us of the importance of information transparency in scientific studies and comprehension. The museum’s storytelling and aesthetics were creative and emphasized that all animals, including humankind, are the same at their core, where all similarly suffer from environmental issues. In the future, this project could be developed with live weather information and become a useful tool in daily life. As a result, the climate change issue will be more transparent and visible.
 
 ---
 
